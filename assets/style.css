@@ -1,0 +1,228 @@
+/********************************
+  #Basic elements
+*********************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+    color: #3d4852;
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+main {
+    padding: 2rem;
+    margin: auto;
+}
+
+h1,
+.h1 {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1;
+}
+
+a {
+    color: inherit;
+    transition: 0.25s all ease-in-out;
+}
+
+a:visited {
+    color: #3d4852;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-color: #3d4852;
+    color: white;
+}
+
+a:focus {
+    outline: thin solid #3d4852;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+ul {
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+svg {
+    fill: currentColor;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0 0 1.5rem;
+}
+
+/********************************
+  #Other elements
+*********************************/
+.profile {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 3rem;
+    max-width: 450px;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 572px;
+}
+
+.content-header {
+    margin-bottom: 1.5rem;
+}
+
+a.button {
+    align-items: center;
+    background-color: #3d4852;
+    border: 1px solid #3d4852;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+a.button:hover,
+a.button:focus {
+    background-color: #58636F;
+    box-shadow: 0 0 2px 2px #bac6d3;
+}
+
+a.button:focus {
+    outline: 1px solid #3d4852;
+}
+
+a.button:visited {
+    color: #fff;
+}
+
+.small-caps {
+    color: #58636F;
+    /* font-weight: 800; */
+    font-size: .875rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.social-links a {
+    border-bottom: 4px solid transparent;
+    display: block;
+    line-height: 1;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    border-bottom-color: #3d4852;
+    background: transparent;
+    color: #3d4852;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+
+/********************************
+  #Breakpoint styles
+*********************************/
+@media screen and (min-width: 992px) {
+
+    body,
+    button,
+    input,
+    select,
+    optgroup,
+    textarea {
+        font-size: 1.125rem;
+    }
+
+    h1,
+    .h1 {
+        font-size: 2.75rem;
+    }
+
+    .content {
+        margin: 0 auto;
+        max-width: 769px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    h1,
+    .h1 {
+        font-size: 4rem;
+    }
+
+    main {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile {
+        margin-bottom: 0;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    body,
+    button,
+    input,
+    select,
+    optgroup,
+    textarea {
+        font-size: 1.25rem;
+    }
+
+    main {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
