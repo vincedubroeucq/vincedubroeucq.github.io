@@ -165,6 +165,12 @@ a.button:visited {
     word-wrap: normal !important;
 }
 
+.lang-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
 
 /********************************
   #Breakpoint styles

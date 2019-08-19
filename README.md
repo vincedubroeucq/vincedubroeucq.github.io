@@ -1,12 +1,13 @@
-# My Personal GitHub Page
-This is just a simple HTML page, with a few styles.Nothing fancy, here.
+# Vincent Dubroeucq, WordPress developer
 
-A couple npm scripts are available to minify all CSS. That's it.
+Hi,
 
-Normalizing styles was done with Normalize.CSS by Nicolas Gallagher https://necolas.github.io/normalize.css/
+I develop custom themes and plugins for clients and the WordPress repositories. I also teach WordPress development.
 
-https://twitter.com/vincedubroeucq
+Get in touch if you need custom theme development, plugin development, if you want to learn how to develop for WordPress, or if you need any other help with your WordPress site.
 
-https://vincentdubroeucq.com
+I am also skilled with JavaScript, CSS, React, and Hugo. So if you need a dynamic app or static site, I can definitely help !
 
+You can learn more about me on my site [vincentdubroeucq.com](https://vincentdubroeucq.com), or [follow me on Twitter](https://twitter.com/vincedubroeucq)
 
+**Credits**: Normalizing styles was done with [Normalize.css](https://necolas.github.io/normalize.css/) by Nicolas Gallagher.
